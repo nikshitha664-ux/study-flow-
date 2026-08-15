@@ -92,9 +92,9 @@ export const handlePdfQuiz = async (req: AuthenticatedRequest, res: Response) =>
         {
           questionId: 2,
           questionText: "Which Gemini model powers real-time streaming and multimodal tasks in AI Workspace?",
-          options: ["gemini-1.0-pro", "gemini-2.5-flash", "gpt-4o", "claude-3-5-sonnet"],
+          options: ["gemini-1.0-pro", "gemini-3.6-flash", "gpt-4o", "claude-3-5-sonnet"],
           correctAnswerIndex: 1,
-          explanation: "AI Workspace is standardized on gemini-2.5-flash for performance and speed."
+          explanation: "AI Workspace is standardized on gemini-3.6-flash for performance and speed."
         }
       ]
     });

@@ -67,7 +67,7 @@ const mockStore = {
     { id: '2', title: 'Mobile App Companion', description: 'React Native companion app research', status: 'active', color: '#3B82F6', created_at: new Date().toISOString() }
   ],
   tasks: [
-    { id: 't1', project_id: '1', title: 'Implement SSE Chat Stream', description: 'Connect Gemini 2.5 Flash streaming endpoint', status: 'done', priority: 'high', created_at: new Date().toISOString() },
+    { id: 't1', project_id: '1', title: 'Implement SSE Chat Stream', description: 'Connect Gemini 3.6 Flash streaming endpoint', status: 'done', priority: 'high', created_at: new Date().toISOString() },
     { id: 't2', project_id: '1', title: 'Design Glassmorphism Sidebar', description: 'Subtle hover states and dark mode tokens', status: 'in_progress', priority: 'urgent', created_at: new Date().toISOString() },
     { id: 't3', project_id: '1', title: 'PDF Quiz Generator Engine', description: 'Parse text into JSON structured schema', status: 'review', priority: 'medium', created_at: new Date().toISOString() }
   ]

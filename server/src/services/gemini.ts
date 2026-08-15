@@ -8,7 +8,7 @@ export const getGeminiClient = (customApiKey?: string) => {
   return new GoogleGenAI({ apiKey });
 };
 
-export const GEMINI_TEXT_MODEL = 'gemini-2.5-flash';
+export const GEMINI_TEXT_MODEL = 'gemini-3.6-flash';
 
 export const SYSTEM_PROMPT = `You are AI Workspace Core Engine, a hyper-capable, highly accurate, context-aware AI assistant integrated into a modern productivity platform. Respond with clear markdown formatting, precise syntax, and structured outputs when requested. Prioritize direct solutions over filler conversational intro phrases.`;
 
